@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:backgroundTint="@android:color/white">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="8dp"
+        android:background="@android:color/background_light"
+        android:elevation="8dp"
+        android:textDirection="ltr">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageDetail"
+            android:src="@android:color/holo_blue_light"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@android:color/background_light"
+        android:elevation="8dp"
+        android:textDirection="ltr">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTitle"
+            android:textSize="20sp"
+            android:text="@string/title"
+            android:textColor="@android:color/black"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@android:color/background_light"
+        android:elevation="8dp"
+        android:textDirection="ltr">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textDescription"
+            android:textSize="20sp"
+            android:text="@string/description"
+            android:textColor="@android:color/black"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@android:color/background_light"
+        android:elevation="8dp"
+        android:textDirection="ltr">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_webview"
+            android:padding="10dp"
+            android:text="@string/target"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/holo_blue_light"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/background_light"
+        android:elevation="8dp"
+        android:textDirection="ltr">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:id="@+id/textFooter"
+            android:text="@string/footer"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"/>
+    </FrameLayout>
+
+</LinearLayout>
